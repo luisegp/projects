@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'inter', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    font-size: 4em;
+    text-align: left;
+    margin-bottom: 0.3em;
+    margin-top: -0.3em;
+}
+a:link, a:visited {
+	text-decoration: none
+	}
+a:hover {
+	text-decoration: underline;
+	color: #f00
+	}
+a:active {
+	text-decoration: none
+}
+img{
+    margin-top: 0.2em;
+}
+a{
+    margin-top: -1em;
+}
+h1{
+    margin-top: -0.3em;
+}
+.form{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+}
+.form-header{
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.login-button{
+    display: flex;
+    align-items: center;
+}
+.login-button button{
+    border: none;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.login-button button:hover{
+    background-color: orange;
+}
+.login-button button a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #000;
+    font-size: 1.5rem;
+}
+.space{
+    margin-left: 0.5rem;
+}
+.input-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+.input-box input{
+    margin: 0.6rem 0;
+    padding: none;
+    border-radius: 7px;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+.continue-button button{
+    width: 100%;
+    margin-top: 2.5rem;
+    border: none;
+    padding: 0.62rem;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+.continue-button button:hover{
+    background-color: #443e3e;
+}
+.continue-button button a{
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: #fff;
+}
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+input[type=date]::-webkit-datetime-edit{ color: transparent; }
+input[type=date]:valid::-webkit-datetime-edit{ color: #000; }
+input[type=date]:focus::-webkit-datetime-edit{ color: #000; }
+
+input[type=date]{ color: transparent; }
+input[type=date]:valid{ color: #000; }
+input[type=date]:focus{ color: #000; }
+@media screen and (max-width:1330px) {
+    .container{
+        width: 50%;
+    }
+    .form{
+        width: 100%;
+    }
+}
+@media screen and (max-width:1064px) {
+    .container{
+        width: 90%;
+        height: auto;
+    }
+    .input-group{
+        flex-direction: column;
+        overflow-y: scroll;
+        flex-wrap: nowrap;
+        max-height: 10rem;
+        padding-right: 5rem;
+    }
+    .ad-inputs{
+        margin-top: 2rem;
+    }
+    
+    .gender-inputs{
+        margin-top: 2rem;
+    }
+    .gender-group{
+        flex-direction: column;
+    }
+    .gender-input{
+        margin-top: 0.5rem;
+    }
+    .form{
+        width: 100%;
+    }
+}

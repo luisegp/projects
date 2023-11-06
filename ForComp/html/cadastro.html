@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ForComp Register</title>
+    <link rel="stylesheet" href="../css/form.css">
+</head>
+
+<body>
+    <div class="form">
+        <form action="#">
+            <div class="form-header">
+                <div class="title">
+                    <h1>
+                        Cadastre-se!
+                    </h1>
+                </div>
+                <div class="login-button">
+                    <button><a href="./index.html"><img src="../img/icon-previous.svg" alt=""></a></button>
+                    <div class="space"></div>
+                    <button><a href="#">Entrar</a></button>
+                </div>
+            </div>
+            <div class="personal-info">
+                <h2>Informações pessoais</h2>
+            </div>
+            <div class="input-group">
+                <div class="input-box">
+                    <label for="Firstname">Primeiro nome</label>
+                    <input type="text" name="Firstname" id="Firstname" class="input" autocomplete="off" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="Lastname">Sobrenome</label>
+                    <input type="text" name="Lastname" id="Lastname" class="input" autocomplete="off" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="nascimento">Data de Nascimento</label>
+                    <input type="date" name="nascimento" id="nascimento" class="input" autocomplete="off" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="cpf">CPF</label>
+                    <input type="number" name="cpf" id="cpf" class="input" autocomplete="off" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" class="input" autocomplete="off" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="number">Celular</label>
+                    <input type="number" name="number" id="number" class="input" autocomplete="off" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="password">Senha</label>
+                    <input type="password" name="password" id="password" class="input" autocomplete="off" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="password">Confirme sua senha</label>
+                    <input type="password" name="confirmpassword" id="password" class="input" autocomplete="off"
+                        required>
+                </div>
+            </div>
+            <div class="ad-inputs">
+                <div class="ad-title">
+                    <h2>Informações de entrega</h2>
+                </div>
+                <div class="ad-group">
+                    <div class="input-box">
+                        <label for="street">Nome da Rua</label>
+                        <input type="text" name="street" id="street" class="input" autocomplete="off" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="house-number">Número da casa</label>
+                        <input type="number" name="house-number" id="house-number" class="input" autocomplete="off"
+                            required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="house-number">CEP</label>
+                        <input type="number" name="house-number" id="house-number" class="input" autocomplete="off"
+                            required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="city">Cidade</label>
+                        <input type="text" name="city" id="city" class="input" autocomplete="off" required>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gender-inputs">
+                <div class="gender-title">
+                    <h6>Gêneros</h6>
+                </div>
+                <div class="gender-group">
+                    <div class="gender-input">
+                        <input type="radio" id="female" name="gender">
+                        <label for="female">Feminino</label>
+                        <div class="gender-group">
+                            <div class="gender-input">
+                                <input type="radio" id="male" name="gender">
+                                <label for="male">Masculino</label>
+                            </div>
+                            <div class="gender-input">
+                                <input type="radio" id="others" name="gender">
+                                <label for="others">Outros</label>
+                            </div>
+                            <div class="gender-input">
+                                <input type="radio" id="none" name="gender">
+                                <label for="none">Prefiro não dizer</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="continue-button">
+                        <button><a href="#">Continuar</a></button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

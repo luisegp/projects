@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'inter', sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    height: 3rem;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 2rem;
+}
+.left-menu{
+    display: flex;
+    gap: 3rem;
+}
+nav ul li a{
+    text-decoration: none;
+    align-items: center;
+    color: #666464;
+    font-size: 1.2rem;
+}
+nav ul li a:hover{
+    color: black;
+    font-size: 1.3rem;
+}
+.right-menu{
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+.icon-avatar img{
+    width: 3rem;
+    align-items: center;
+}
+.line{
+    height: 0.1rem;
+    background-color: #ddd;
+    width: 90%;
+    align-self: center;
+}
+.logo img{
+    height: 1.5rem;
+}
+.description{
+    margin-top: 3rem;
+    font-size: 1rem;
+    text-align: center;
+    text-shadow: 1rem;
+}
+.gap{
+    margin-top: -15rem;
+}
+
+.gapp{
+    margin-bottom: -35rem;
+}
+main .line{
+    height: 0.1rem;
+    background-color: #ddd;
+    width: 100%;
+    align-self: center;
+}
+.cart-items p{
+    margin-bottom: 100px;
+}
+.compras{
+    margin-top: 10px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 3rem);
+    gap: 5rem;
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    width: 100%;
+}
+.items{
+    align-self: flex-end;
+}
+.select-image{
+    max-width: 20rem;
+}
+.select-image img{
+    width: 100%;
+}
+.thumbs{
+    display: flex;
+    max-width: 10rem;
+    gap: 0.8rem;
+}
+.right-side{
+    width: 100%;
+    margin-right: 0.5rem;
+}
+.content{
+    max-width: 40rem;
+    display: flex;
+    flex-direction: column;
+}
+h6{
+    color: orange;
+    font-size: 0.7rem;
+}
+h4{
+    color: orange;
+}
+.status{
+    margin-top: 1rem;
+    display: flex;
+}
+.status p{
+    margin-left: 0.5rem;
+}
